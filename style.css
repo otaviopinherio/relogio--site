@@ -365,11 +365,6 @@ input::placeholder{
 
 }
 
-@media (max-width:425px){
-   
-
-}
-
 @media (max-width:375px){
     .conteiner h1.tempo{
         grid-area: 4/2 / 5/8;
