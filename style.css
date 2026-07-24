@@ -221,6 +221,10 @@ input::placeholder{
 }
 
 @media (max-width:768px){
+    .conteiner{
+        width: 100%;
+    }
+    
     .butoes{
         grid-area: 8/4 / 9/6;
     }
