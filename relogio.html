@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="relogio.css">
+    <title>RELOGIO DIGITAL</title>
+</head>
+<body>
+    <div class="conteiner">
+        <h1 class="titulo">RELOGIO DIGITAL</h1>
+
+        <h2>hora atual</h2>
+
+        <h1 class="tempo">00:00:00</h1>
+
+            <div class="conteiner-voltas">
+            </div>
+        
+        <div class="butoes">
+            <button id="butao-inicio">início</button>
+            <button id="butao-cronometro">Cronômetro</button>
+            <button id="butao-temporizador">Temporizador</button>
+        </div>
+        
+        <div class="butoes_cronometro">
+            <button id="iniciar-cronometro">iniciar</button>
+            <button id="para-cronometro">para</button>
+        </div>
+            <button id="restaurar-cronometro">Restaurar</button>
+            <button id="contar-volta-cronometro">volta</button>
+            
+            <div class="inputs-temporizador">
+                <input type="number" id="hora-temporizador" max="99" placeholder="00">
+                <input type="number" id="minuto-temporizador" max="59" placeholder="00">
+                <input type="text" id="segundo-temporizador" maxlength="2" placeholder="00">
+            </div>
+            
+            <button id="iniciar-temporizador">iniciar</button>
+            <button id="para-temporizador">Para</button>
+            <button id="restaurar-temporizador">Restaurar</button>
+            <button id="continuar-temporizador">continuar</button>
+
+    </div>
+
+    <script src="relogio.js"></script>
+</body>
+</html>
